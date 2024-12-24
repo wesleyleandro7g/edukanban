@@ -1,0 +1,24 @@
+{
+  // "extends": "@rocketseat/eslint-config/react",
+  "rules": {
+    // "camelcase": "off",
+    "rules": {
+      "react-hooks/rules-of-hooks": "off",
+      "@typescript-eslint/no-explicit-any": "off",
+      "prettier/prettier": ["error", { "endOfLine": "auto" }],
+      "react/no-unescaped-entities": "off",
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": "error",
+      "import/newline-after-import": "error",
+      "import/no-duplicates": "error",
+      "@typescript-eslint/naming-convention": [
+        "error",
+        {
+          "selector": ["typeAlias"],
+          "format": ["StrictPascalCase"],
+          "suffix": ["Type", "Props"]
+        }
+      ]
+    }
+  }
+}
